@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New_Login_Page</title>
+
+     <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap" rel="stylesheet">
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: rgb(240, 228, 228);
+        }
+        .row{
+            background: white;
+            border-radius:30px;
+            box-shadow: 12px 12px grey;
+        }
+        img{
+            border-top-left-radius: 30px;
+            border-bottom-left-radius:30px;
+        }
+        .btn1{
+            border: none;
+            outline: none;
+            height: 50px;
+            width:100%;
+            background-color: black;
+            color: white;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .btn1:hover{
+            background: white;
+            border: 1px solid;
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="Form my-4 mx-5">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-5">
+                    <img src="" class="img-fluid" alt="Image is loading">
+                </div>
+                <div class="col-lg-7 px-5 py-5">
+                    <h1 class="font-weight-bold py-3">Logo</h1>
+                    <h4>Sign into your account</h4>
+                    <form>
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input type="email" placeholder="Email-address" class="form-control my-3 py-4">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input type="password" placeholder="********" class="form-control my-3 py-4">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <button type="button" class="btn1 mt-3px mb-5">Login</button>
+                            </div>
+                        </div>
+                        <p>Don't have an account? <a href="#">Register here</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
